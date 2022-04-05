@@ -259,9 +259,9 @@ def remove_mention(text):
 
 
 # normalization of accented characters 
-def accento_correcto(text):
-    output_string = unidecode.unidecode(text)
-    return(output_string)
+#def accento_correcto(text):
+ #   output_string = unidecode.unidecode(text)
+  #  return(output_string)
 
 
 # In[ ]:
@@ -318,8 +318,8 @@ while i<l:
     except:
         hashtag_list.append("")
      
-    temp=(accento_correcto(df_tweets_translated.Translated[i]))
-    temp=(remove_mention(temp))
+    #temp=(accento_correcto(df_tweets_translated.Translated[i]))
+    temp=(remove_mention(df_tweets_translated.Translated[i]))
     temp=(remove_hashtags(temp))
     temp=(phoneno_rem(temp))
     temp=(email_rem(temp))
