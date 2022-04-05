@@ -966,7 +966,6 @@ elif chart_visual == 'Data View':
 # In[1]:
 
 
-streamlit run Final_Copy.py
 
 
 # In[ ]:
