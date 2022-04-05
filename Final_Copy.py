@@ -39,7 +39,6 @@ from googletrans import Translator
 import re
 import nltk
 from bs4 import BeautifulSoup
-import unidecode
 from nltk.stem import WordNetLemmatizer
 import spacy
 from spacy import displacy
