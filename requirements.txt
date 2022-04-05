@@ -5,7 +5,6 @@ googletrans==4.0.0-rc.1
 spacy==3.2.3
 seaborn==0.10.1
 matplotlib==3.2.2
-sklearn==0.23.1
 textblob==0.17.1
 PIL==7.2.0
 wordcloud==1.8.1
