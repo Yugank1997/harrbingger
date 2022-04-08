@@ -22,7 +22,9 @@ It contains a list of entities that are to be removed from the data. These entit
 --------------------------------------------------------------Fifth File: Yugank_Harbinger_PS4_solution.ipynb ------------------
 
 This is the solution file with the complete code. It was created using a Jupyter notebook in an Anaconda distribution. This file is recommended to be used for running the program.
+
 Anaconda distribution is recommended to run the program. Open a Jupyter notebook on Anaconda, paste this file along with the above 3 csv files in the same folder which will also be your directory. Import the packages mentioned in the Requirements.txt file. Run all the statements. 
+
 Note: For changing the working directory use the following code:
       import os
       os.chdir(path of folder)
