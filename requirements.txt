@@ -13,3 +13,15 @@ scikit-learn
 vaderSentiment
 text2emotion
 unidecode
+os
+csv
+re
+bs4
+sklearn
+collections
+PIL
+dash
+plotly.express
+skimage
+snscrape
+datetime
